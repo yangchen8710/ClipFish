@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
         };
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
         if (!getClipText())
         {
             Toast.makeText(MainActivity.this, "Clip Error.",Toast.LENGTH_LONG).show();
